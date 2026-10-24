@@ -1,0 +1,25 @@
+# 個人設定（各自保留）
+CLAUDE.local.md
+*.local.md
+*.local.json
+
+# 機密
+.env
+.env.*
+secrets/
+*.key
+*.pem
+
+# 大型檔案（副業的成果物素材請放雲端，這裡只放文字資料）
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.psd
+*.zip
+side-business/projects/*/assets/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
